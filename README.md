@@ -86,3 +86,21 @@ CHITTIMALLA MANVIITHA
 B.Tech – Computer Science and Data Science (CSD)
 ucetw,kakatiya university
 PROJECT:E-COMMERCE SALES DATA ANALYSIS
+
+## How to Run This Project
+
+1. Clone or download this repository.
+2. Install the required Python libraries:
+
+   pip install pandas numpy matplotlib seaborn openpyxl
+
+3. Open ecommerce_analysis.ipynb in Jupyter Notebook or VS Code.
+4. Load the compressed dataset using pandas:
+
+   df = pd.read_csv("cleaned_online_retail_data.csv.gz", compression="gzip")
+
+5. Run the notebook cells to explore the data analysis and visualizations.
+
+## Project Status
+
+Completed
